@@ -1,5 +1,5 @@
 import { BigNumber } from 'ethers';
-import { MONTH_SEC, toBN, UNIT, WEEK_SEC } from '../../../scripts/util/web3utils';
+import { MONTH_SEC, toBN, UNIT, WEEK_SEC } from '@scripts/util/web3utils';
 import { assertCloseToPercentage } from '../../utils/assert';
 import { openLongCallAndGetLiquidity, openLongPutAndGetLiquidity, setETHPrice } from '../../utils/contractHelpers';
 import { fastForward } from '../../utils/evm';

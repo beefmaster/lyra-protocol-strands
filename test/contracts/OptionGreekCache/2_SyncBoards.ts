@@ -1,4 +1,4 @@
-import { DAY_SEC, getEventArgs, MONTH_SEC, toBN } from '../../../scripts/util/web3utils';
+import { DAY_SEC, getEventArgs, MONTH_SEC, toBN } from '@scripts/util/web3utils';
 import { assertCloseTo, assertCloseToPercentage } from '../../utils/assert';
 import { createBoard, setETHPrice } from '../../utils/contractHelpers';
 import * as defaultParams from '../../utils/defaultParams';

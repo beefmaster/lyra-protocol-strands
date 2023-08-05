@@ -1,6 +1,6 @@
 import { BigNumberish } from 'ethers';
 import { openPosition } from '.';
-import { OptionType, toBN } from '../../../scripts/util/web3utils';
+import { OptionType, toBN } from '@scripts/util/web3utils';
 import { hre } from '../testSetup';
 
 export async function getRequiredHedge() {

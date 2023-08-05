@@ -1,5 +1,5 @@
 // integration tests
-import { MONTH_SEC, OptionType, PositionState, toBN } from '../../../scripts/util/web3utils';
+import { MONTH_SEC, OptionType, PositionState, toBN } from '@scripts/util/web3utils';
 import { estimateCallPayout, openPositionWithOverrides, setETHPrice } from '../../utils/contractHelpers';
 import { fastForward } from '../../utils/evm';
 import { seedFixture } from '../../utils/fixture';

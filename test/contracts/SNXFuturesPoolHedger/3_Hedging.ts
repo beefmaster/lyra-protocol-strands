@@ -1,5 +1,5 @@
 import { beforeEach } from 'mocha';
-import { MAX_UINT, OptionType, toBN, toBytes32 } from '../../../scripts/util/web3utils';
+import { MAX_UINT, OptionType, toBN, toBytes32 } from '@scripts/util/web3utils';
 import { closePosition, openPosition } from '../../utils/contractHelpers';
 import { deployFixturePerpsAdapter } from '../../utils/fixture';
 import { expect, hre } from '../../utils/testSetup';

@@ -1,6 +1,6 @@
 import { Signer } from 'ethers';
 import { ethers } from 'hardhat';
-import { currentTime, DAY_SEC, HOUR_SEC, toBN } from '../../../scripts/util/web3utils';
+import { currentTime, DAY_SEC, HOUR_SEC, toBN } from '@scripts/util/web3utils';
 import { GWAV, TestGWAV } from '../../../typechain-types';
 import { assertCloseToPercentage } from '../../utils/assert';
 import { restoreSnapshot, takeSnapshot } from '../../utils/evm';

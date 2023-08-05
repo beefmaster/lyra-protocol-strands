@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import { BigNumberish } from 'ethers';
-import { OptionType, toBN } from '../../../scripts/util/web3utils';
+import { OptionType, toBN } from '@scripts/util/web3utils';
 import {
   closeLongCall,
   closeLongPut,

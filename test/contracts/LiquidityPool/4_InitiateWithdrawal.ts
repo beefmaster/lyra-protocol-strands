@@ -1,6 +1,6 @@
 import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';
 import { BigNumber } from 'ethers';
-import { getTxTimestamp, MONTH_SEC, toBN, UNIT, WEEK_SEC, ZERO_ADDRESS } from '../../../scripts/util/web3utils';
+import { getTxTimestamp, MONTH_SEC, toBN, UNIT, WEEK_SEC, ZERO_ADDRESS } from '@scripts/util/web3utils';
 import { assertCloseToPercentage } from '../../utils/assert';
 import { DEFAULT_LIQUIDITY_POOL_PARAMS } from '../../utils/defaultParams';
 import { fastForward } from '../../utils/evm';

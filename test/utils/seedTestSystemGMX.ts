@@ -1,7 +1,7 @@
 // Seed GMX system
 
 import { BigNumber, BigNumberish, Signer } from 'ethers';
-import { currentTime, getEventArgs, toBN, toBN18 } from '../../scripts/util/web3utils';
+import { currentTime, getEventArgs, toBN, toBN18 } from '@scripts/util/web3utils';
 import { MarketTestSystemContractsGMX, TestSystemContractsTypeGMX } from './deployTestSystemGMX';
 import { SeedOverrides } from './seedTestSystem';
 import * as defaultParams from './defaultParams';

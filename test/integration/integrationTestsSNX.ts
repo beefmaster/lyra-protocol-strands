@@ -4,8 +4,8 @@ import {
   expectHedgeEqualTo,
   forceUpdateHedgePosition,
   openPosition,
-} from '../../scripts/util/integrationFunctions';
-import { fromBN, OptionType, toBN, toBytes32 } from '../../scripts/util/web3utils';
+} from '@scripts/util/integrationFunctions';
+import { fromBN, OptionType, toBN, toBytes32 } from '@scripts/util/web3utils';
 import { assertCloseToPercentage } from '../utils/assert';
 import { DEFAULT_LIQUIDITY_POOL_PARAMS, DEFAULT_OPTION_MARKET_PARAMS, PricingType } from '../utils/defaultParams';
 import { deployTestSystem, TestSystemContractsType } from '../utils/deployTestSystem';

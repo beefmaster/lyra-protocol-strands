@@ -1,7 +1,7 @@
 import { ContractFactory } from '@ethersproject/contracts';
 import { BigNumber, BigNumberish, Contract } from 'ethers';
 import { ethers } from 'hardhat';
-import { toBN, toBytes32, UNIT, ZERO_ADDRESS } from '../../../scripts/util/web3utils';
+import { toBN, toBytes32, UNIT, ZERO_ADDRESS } from '@scripts/util/web3utils';
 import { TestDelegateApprovals } from '../../../typechain-types';
 import { assertCloseToPercentage } from '../assert';
 import { DEFAULT_FEE_RATE_FOR_BASE, DEFAULT_FEE_RATE_FOR_QUOTE, DEFAULT_SECURITY_MODULE } from '../defaultParams';

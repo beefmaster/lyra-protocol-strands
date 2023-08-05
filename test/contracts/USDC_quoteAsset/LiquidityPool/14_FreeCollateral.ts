@@ -1,4 +1,4 @@
-import { getEventArgs, MONTH_SEC, OptionType, toBN, UNIT } from '../../../../scripts/util/web3utils';
+import { getEventArgs, MONTH_SEC, OptionType, toBN, UNIT } from '@scripts/util/web3utils';
 import { seedFixtureUSDC } from '../../../utils/fixture';
 import { assertCloseTo } from '../../../utils/assert';
 import {

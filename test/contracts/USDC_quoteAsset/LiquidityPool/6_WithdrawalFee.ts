@@ -1,5 +1,5 @@
 import { BigNumber } from 'ethers';
-import { HOUR_SEC, MONTH_SEC, toBN, WEEK_SEC } from '../../../../scripts/util/web3utils';
+import { HOUR_SEC, MONTH_SEC, toBN, WEEK_SEC } from '@scripts/util/web3utils';
 import { assertCloseTo, assertCloseToPercentage } from '../../../utils/assert';
 import {
   DEFAULT_LONG_PUT,

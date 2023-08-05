@@ -1,5 +1,5 @@
 import { BigNumber, BigNumberish } from 'ethers';
-import { getMarketTradeArgs } from '../../../scripts/util/transactions';
+import { getMarketTradeArgs } from '@scripts/util/transactions';
 import {
   currentTime,
   DAY_SEC,
@@ -11,7 +11,7 @@ import {
   toBN,
   toBytes32,
   WEEK_SEC,
-} from '../../../scripts/util/web3utils';
+} from '@scripts/util/web3utils';
 import {
   ForceCloseParametersStruct,
   GreekCacheParametersStruct,

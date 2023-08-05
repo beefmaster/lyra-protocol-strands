@@ -8,7 +8,7 @@ import {
   TradeDirection,
   UNIT,
   WEEK_SEC,
-} from '../../../scripts/util/web3utils';
+} from '@scripts/util/web3utils';
 import { TestBlackScholes } from '../../../typechain-types';
 import { LiquidityStruct } from '../../../typechain-types/LiquidityPool';
 import { StrikeStruct } from '../../../typechain-types/OptionGreekCache';

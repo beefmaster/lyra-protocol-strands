@@ -12,7 +12,7 @@ import {
   UNIT,
   WEEK_SEC,
   ZERO_ADDRESS,
-} from '../../../scripts/util/web3utils';
+} from '@scripts/util/web3utils';
 import { OptionMarket, TestERC20Fail, TestERC20SetDecimals, TestLyraAdapter } from '../../../typechain-types';
 import { assertCloseTo, assertCloseToPercentage } from '../../utils/assert';
 import { openPositionWithOverrides } from '../../utils/contractHelpers';

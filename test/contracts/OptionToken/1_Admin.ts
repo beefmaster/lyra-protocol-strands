@@ -1,4 +1,4 @@
-import { toBN } from '../../../scripts/util/web3utils';
+import { toBN } from '@scripts/util/web3utils';
 import { openDefaultLongCall } from '../../utils/contractHelpers';
 import { DEFAULT_PARTIAL_COLLAT_PARAMS } from '../../utils/defaultParams';
 import { seedFixture } from '../../utils/fixture';

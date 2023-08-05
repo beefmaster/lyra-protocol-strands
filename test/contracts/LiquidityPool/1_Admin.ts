@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import { ethers } from 'hardhat';
-import { DAY_SEC, HOUR_SEC, MONTH_SEC, toBN, WEEK_SEC, YEAR_SEC } from '../../../scripts/util/web3utils';
+import { DAY_SEC, HOUR_SEC, MONTH_SEC, toBN, WEEK_SEC, YEAR_SEC } from '@scripts/util/web3utils';
 import { CircuitBreakerParametersStruct, LiquidityPoolParametersStruct } from '../../../typechain-types/LiquidityPool';
 import { DEFAULT_CB_PARAMS, DEFAULT_LIQUIDITY_POOL_PARAMS } from '../../utils/defaultParams';
 import { seedFixture } from '../../utils/fixture';

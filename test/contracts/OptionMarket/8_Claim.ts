@@ -1,5 +1,5 @@
 import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';
-import { toBN } from '../../../scripts/util/web3utils';
+import { toBN } from '@scripts/util/web3utils';
 import { openAllTrades } from '../../utils/contractHelpers';
 import { DEFAULT_OPTION_MARKET_PARAMS } from '../../utils/defaultParams';
 import { seedFixture } from '../../utils/fixture';

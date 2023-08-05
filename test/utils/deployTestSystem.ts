@@ -1,6 +1,6 @@
 import { BigNumber, Contract, ContractFactory, Signer } from 'ethers';
 import { ethers, tracer, upgrades } from 'hardhat';
-import { DEFAULT_DECIMALS, toBN, toBytes32, YEAR_SEC } from '../../scripts/util/web3utils';
+import { DEFAULT_DECIMALS, toBN, toBytes32, YEAR_SEC } from '@scripts/util/web3utils';
 import {
   BasicFeeCounter,
   BasicLiquidityCounter,

@@ -1,4 +1,4 @@
-import { OptionType, toBN } from '../../../scripts/util/web3utils';
+import { OptionType, toBN } from '@scripts/util/web3utils';
 import { assertCloseTo, assertCloseToPercentage } from '../../utils/assert';
 import {
   forceClosePosition,

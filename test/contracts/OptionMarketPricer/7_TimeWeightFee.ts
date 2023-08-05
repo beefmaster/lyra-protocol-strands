@@ -1,4 +1,4 @@
-import { currentTime, DAY_SEC, HOUR_SEC, MONTH_SEC, toBN, WEEK_SEC, YEAR_SEC } from '../../../scripts/util/web3utils';
+import { currentTime, DAY_SEC, HOUR_SEC, MONTH_SEC, toBN, WEEK_SEC, YEAR_SEC } from '@scripts/util/web3utils';
 import { assertCloseToPercentage } from '../../utils/assert';
 import { seedFixture } from '../../utils/fixture';
 import { expect, hre } from '../../utils/testSetup';

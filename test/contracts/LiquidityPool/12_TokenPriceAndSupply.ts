@@ -1,4 +1,4 @@
-import { currentTime, DAY_SEC, toBN, WEEK_SEC } from '../../../scripts/util/web3utils';
+import { currentTime, DAY_SEC, toBN, WEEK_SEC } from '@scripts/util/web3utils';
 import { assertCloseToPercentage } from '../../utils/assert';
 import { openDefaultLongCall } from '../../utils/contractHelpers';
 import { fastForward } from '../../utils/evm';

@@ -1,6 +1,6 @@
 import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';
 import { BigNumber } from 'ethers';
-import { DAY_SEC, getTxTimestamp, HOUR_SEC, toBN, WEEK_SEC } from '../../../scripts/util/web3utils';
+import { DAY_SEC, getTxTimestamp, HOUR_SEC, toBN, WEEK_SEC } from '@scripts/util/web3utils';
 import { assertCloseTo, assertCloseToPercentage } from '../../utils/assert';
 import {
   DEFAULT_LONG_CALL,

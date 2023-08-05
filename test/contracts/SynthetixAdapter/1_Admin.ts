@@ -1,6 +1,6 @@
 import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';
 import { ethers, upgrades } from 'hardhat';
-import { toBN, toBytes32, ZERO_ADDRESS } from '../../../scripts/util/web3utils';
+import { toBN, toBytes32, ZERO_ADDRESS } from '@scripts/util/web3utils';
 import { setETHPrice } from '../../utils/contractHelpers';
 import { DEFAULT_SECURITY_MODULE } from '../../utils/defaultParams';
 import { seedFixture } from '../../utils/fixture';

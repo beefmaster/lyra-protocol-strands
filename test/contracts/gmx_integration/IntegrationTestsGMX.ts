@@ -7,7 +7,7 @@ import {
   toBN,
   ZERO_ADDRESS,
   MAX_UINT,
-} from '../../../scripts/util/web3utils';
+} from '@scripts/util/web3utils';
 import {
   DEFAULT_OPTION_MARKET_PARAMS,
   DEFAULT_POOL_HEDGER_PARAMS,
@@ -18,7 +18,7 @@ import {
 import { deployGMXTestSystem, TestSystemContractsTypeGMX } from '../../utils/deployTestSystemGMX';
 import { fastForward, restoreSnapshot, takeSnapshot } from '../../utils/evm';
 import { expect } from 'chai';
-import { openPosition, closePosition } from '../../../scripts/util/integrationFunctions';
+import { openPosition, closePosition } from '@scripts/util/integrationFunctions';
 
 import { BigNumber, BigNumberish, ContractFactory, Signer, Wallet } from 'ethers';
 import { seedTestSystemGMX, setPrice } from '../../utils/seedTestSystemGMX';

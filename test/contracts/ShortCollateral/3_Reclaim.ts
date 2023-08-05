@@ -1,7 +1,7 @@
 import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';
 import { BigNumberish } from 'ethers';
 import { ethers, upgrades } from 'hardhat';
-import { getEventArgs, MONTH_SEC, OptionType, toBN, UNIT } from '../../../scripts/util/web3utils';
+import { getEventArgs, MONTH_SEC, OptionType, toBN, UNIT } from '@scripts/util/web3utils';
 import { assertCloseToPercentage } from '../../utils/assert';
 import {
   estimateCallPayout,

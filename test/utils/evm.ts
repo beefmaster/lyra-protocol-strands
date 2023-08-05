@@ -1,5 +1,5 @@
 import { ethers } from 'hardhat';
-import { currentTime } from '../../scripts/util/web3utils';
+import { currentTime } from '@scripts/util/web3utils';
 
 export function send(method: string, params?: Array<any>) {
   return ethers.provider.send(method, params === undefined ? [] : params);

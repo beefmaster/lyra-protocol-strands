@@ -1,5 +1,5 @@
 import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';
-import { HOUR_SEC, ZERO_ADDRESS, toBN, toBytes32 } from '../../../scripts/util/web3utils';
+import { HOUR_SEC, ZERO_ADDRESS, toBN, toBytes32 } from '@scripts/util/web3utils';
 import {
   PoolHedgerParametersStruct,
   SNXPerpsV2PoolHedgerParametersStruct,

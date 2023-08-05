@@ -16,7 +16,7 @@ import {
   WEEK_SEC,
   YEAR_SEC,
   ZERO_ADDRESS,
-} from '../../../scripts/util/web3utils';
+} from '@scripts/util/web3utils';
 import {
   DEFAULT_BASE_PRICE,
   DEFAULT_BOARD_PARAMS,

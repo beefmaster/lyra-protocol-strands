@@ -1,5 +1,5 @@
 import { beforeEach } from 'mocha';
-import { DAY_SEC, HOUR_SEC, OptionType, toBN, toBytes32, ZERO_ADDRESS } from '../../../scripts/util/web3utils';
+import { DAY_SEC, HOUR_SEC, OptionType, toBN, toBytes32, ZERO_ADDRESS } from '@scripts/util/web3utils';
 import { DEFAULT_SHORT_CALL_QUOTE, openPosition } from '../../utils/contractHelpers';
 import { DEFAULT_POOL_HEDGER_PARAMS, DEFAULT_SNX_FUTURES_HEDGER_PARAMS } from '../../utils/defaultParams';
 import { deployFixturePerpsAdapter } from '../../utils/fixture';

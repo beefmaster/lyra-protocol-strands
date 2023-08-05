@@ -1,6 +1,6 @@
 import { BigNumber, Contract, ContractFactory, Signer } from 'ethers';
 import { ethers, tracer } from 'hardhat';
-import { currentTime, toBN } from '../../scripts/util/web3utils';
+import { currentTime, toBN } from '@scripts/util/web3utils';
 import {
   BasicFeeCounter,
   BasicLiquidityCounter,

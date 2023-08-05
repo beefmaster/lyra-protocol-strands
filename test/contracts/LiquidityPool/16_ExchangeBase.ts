@@ -1,4 +1,4 @@
-import { MAX_UINT, OptionType, toBN, toBytes32, WEEK_SEC } from '../../../scripts/util/web3utils';
+import { MAX_UINT, OptionType, toBN, toBytes32, WEEK_SEC } from '@scripts/util/web3utils';
 import { assertCloseToPercentage } from '../../utils/assert';
 import {
   closeLongCall,

@@ -1,7 +1,7 @@
 // testing for curve related exchange rate changes
 
 import { BigNumber, BigNumberish } from "ethers";
-import { OptionType, toBN } from "../../../scripts/util/web3utils"
+import { OptionType, toBN } from "@scripts/util/web3utils"
 import { MarketViewStruct } from "../../../typechain-types/OptionMarketViewer";
 import { openPosition } from "../../utils/contractHelpers";
 import { deployFixturePerpsAdapter } from "../../utils/fixture";

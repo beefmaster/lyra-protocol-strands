@@ -2,7 +2,7 @@ import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';
 import { expect } from 'chai';
 import { BigNumberish } from 'ethers';
 import { ethers } from 'hardhat';
-import { toBN } from '../../../scripts/util/web3utils';
+import { toBN } from '@scripts/util/web3utils';
 import { BasicLiquidityCounter, LiquidityToken } from '../../../typechain-types';
 import { restoreSnapshot, takeSnapshot } from '../../utils/evm';
 

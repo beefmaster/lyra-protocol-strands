@@ -1,4 +1,4 @@
-import { toBN } from '../../../../scripts/util/web3utils';
+import { toBN } from '@scripts/util/web3utils';
 import {
   fillLiquidityWithLongCall,
   fillLiquidityWithLongPut,

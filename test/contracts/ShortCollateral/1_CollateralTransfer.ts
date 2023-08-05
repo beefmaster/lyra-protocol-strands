@@ -1,7 +1,7 @@
 import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';
 import { ethers } from 'hardhat';
 // import * as _ from 'lodash';
-import { getEventArgs, OptionType, toBN, toBytes32, ZERO_ADDRESS } from '../../../scripts/util/web3utils';
+import { getEventArgs, OptionType, toBN, toBytes32, ZERO_ADDRESS } from '@scripts/util/web3utils';
 import { ShortCollateral } from '../../../typechain-types';
 import { DEFAULT_SECURITY_MODULE } from '../../utils/defaultParams';
 import {

@@ -1,5 +1,5 @@
 import { BigNumber } from 'ethers';
-import { MAX_UINT, toBN, toBytes32, UNIT } from '../../../scripts/util/web3utils';
+import { MAX_UINT, toBN, toBytes32, UNIT } from '@scripts/util/web3utils';
 import { setETHExchangerInvalid } from '../../utils/contractHelpers';
 import { expectBalance, expectBalanceCloseTo, setETHFeeRate, setETHPrice } from '../../utils/contractHelpers/synthetix';
 import { seedFixture } from '../../utils/fixture';

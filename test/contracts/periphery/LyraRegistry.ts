@@ -1,6 +1,6 @@
 import { ContractFactory } from 'ethers/lib/ethers';
 import { ethers } from 'hardhat';
-import { toBytes32, ZERO_ADDRESS } from '../../../scripts/util/web3utils';
+import { toBytes32, ZERO_ADDRESS } from '@scripts/util/web3utils';
 import { LiquidityPool, OptionMarket } from '../../../typechain-types';
 import { deployFixture } from '../../utils/fixture';
 import { expect, hre } from '../../utils/testSetup';

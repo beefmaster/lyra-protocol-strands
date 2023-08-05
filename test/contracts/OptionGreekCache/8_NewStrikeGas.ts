@@ -1,4 +1,4 @@
-import { currentTime, DAY_SEC, toBN, toBN18, WEEK_SEC } from '../../../scripts/util/web3utils';
+import { currentTime, DAY_SEC, toBN, toBN18, WEEK_SEC } from '@scripts/util/web3utils';
 import { seedFixture } from '../../utils/fixture';
 import { hre } from '../../utils/testSetup';
 

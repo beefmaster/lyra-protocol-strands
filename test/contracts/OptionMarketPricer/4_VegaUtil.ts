@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { toBN } from '../../../scripts/util/web3utils';
+import { toBN } from '@scripts/util/web3utils';
 import { TradeParametersStruct, TradePricingStruct } from '../../../typechain-types/OptionGreekCache';
 import { seedFixture } from '../../utils/fixture';
 import { hre } from '../../utils/testSetup';

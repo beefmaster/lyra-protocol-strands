@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { currentTime, HOUR_SEC, OptionType, toBN, WEEK_SEC } from '../../../../scripts/util/web3utils';
+import { currentTime, HOUR_SEC, OptionType, toBN, WEEK_SEC } from '@scripts/util/web3utils';
 import { assertCloseTo } from '../../../utils/assert';
 import {
   closePositionWithOverrides,

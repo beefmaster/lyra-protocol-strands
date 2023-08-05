@@ -1,5 +1,5 @@
 import { BigNumber, BigNumberish } from 'ethers';
-import { DAY_SEC, getEventArgs, MONTH_SEC, OptionType, toBN, UNIT, WEEK_SEC } from '../../../../scripts/util/web3utils';
+import { DAY_SEC, getEventArgs, MONTH_SEC, OptionType, toBN, UNIT, WEEK_SEC } from '@scripts/util/web3utils';
 import { TradeResultStructOutput } from '../../../../typechain-types/OptionMarketPricer';
 import { assertCloseToPercentage } from '../../../utils/assert';
 import {

@@ -1,4 +1,4 @@
-import { MONTH_SEC, OptionType, toBN, UNIT, WEEK_SEC } from '../../../../scripts/util/web3utils';
+import { MONTH_SEC, OptionType, toBN, UNIT, WEEK_SEC } from '@scripts/util/web3utils';
 import { assertCloseTo, assertCloseToPercentage } from '../../../utils/assert';
 import {
   closeLongCall,

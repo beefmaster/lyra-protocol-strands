@@ -3,7 +3,7 @@ import { allCurrenciesFixtureGMX } from '../../utils/fixture';
 import { deployGovernanceWrappers, GovernanceWrappersTypeGMX } from './utils';
 import { expect, hre } from '../../utils/testSetup';
 import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';
-import { ZERO_ADDRESS } from '../../../scripts/util/web3utils';
+import { ZERO_ADDRESS } from '@scripts/util/web3utils';
 
 describe('GMXHedgedGovernanceWrapper - GMX adapter', () => {
   let govWrap: GovernanceWrappersTypeGMX;

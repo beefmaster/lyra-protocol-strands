@@ -1,5 +1,5 @@
 import { ethers } from 'hardhat';
-import { toBN, ZERO_ADDRESS } from '../../../scripts/util/web3utils';
+import { toBN, ZERO_ADDRESS } from '@scripts/util/web3utils';
 import { deployFixturePerpsAdapter } from '../../utils/fixture';
 import { hre, expect } from '../../utils/testSetup';
 

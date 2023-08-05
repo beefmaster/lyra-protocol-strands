@@ -1,7 +1,7 @@
 import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';
 import { BigNumber, BigNumberish } from 'ethers';
 import { getSpotPrice, getTotalCost, openPosition } from '.';
-import { currentTime, MONTH_SEC, OptionType, toBN, UNIT } from '../../../scripts/util/web3utils';
+import { currentTime, MONTH_SEC, OptionType, toBN, UNIT } from '@scripts/util/web3utils';
 import { LiquidityStructOutput } from '../../../typechain-types/LiquidityPool';
 import { DEFAULT_POOL_DEPOSIT, DEFAULT_PRICING_PARAMS } from '../defaultParams';
 import { hre } from '../testSetup';

@@ -10,7 +10,7 @@ import {
   toBN,
   UNIT,
   WEEK_SEC,
-} from '../../../scripts/util/web3utils';
+} from '@scripts/util/web3utils';
 import { assertCloseTo, assertCloseToPercentage } from '../../utils/assert';
 import {
   expectBalance,

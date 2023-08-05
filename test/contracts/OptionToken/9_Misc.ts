@@ -1,6 +1,6 @@
 // integration tests
 import { BigNumber, BigNumberish } from 'ethers';
-import { MONTH_SEC, OptionType, PositionState, toBN } from '../../../scripts/util/web3utils';
+import { MONTH_SEC, OptionType, PositionState, toBN } from '@scripts/util/web3utils';
 import { OptionPositionStruct } from '../../../typechain-types/OptionToken';
 import {
   ALL_TYPES,

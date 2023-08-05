@@ -1,6 +1,6 @@
 import { BigNumber, Signer } from 'ethers';
 import { ethers } from 'hardhat';
-import { fromBN, toBN, WEEK_SEC, YEAR_SEC } from '../../../scripts/util/web3utils';
+import { fromBN, toBN, WEEK_SEC, YEAR_SEC } from '@scripts/util/web3utils';
 import { BlackScholes, TestBlackScholes } from '../../../typechain-types';
 import { BlackScholesInputsStruct } from '../../../typechain-types/BlackScholes';
 import { combineArrays } from '../../utils/arrayCombiner';

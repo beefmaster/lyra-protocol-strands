@@ -10,7 +10,7 @@ import {
   OptionType,
   toBN,
   WEEK_SEC,
-} from '../../../../scripts/util/web3utils';
+} from '@scripts/util/web3utils';
 import { seedFixtureUSDC } from '../../../utils/fixture';
 import {
   closePosition,

@@ -1,6 +1,6 @@
 import { deployFixture } from '../../utils/fixture';
 import { expect, hre } from '../../utils/testSetup';
-import { HOUR_SEC, MAX_UINT, MONTH_SEC, OptionType, toBN } from '../../../scripts/util/web3utils';
+import { HOUR_SEC, MAX_UINT, MONTH_SEC, OptionType, toBN } from '@scripts/util/web3utils';
 import { createDefaultBoardWithOverrides, mockPrice } from '../../utils/seedTestSystem';
 import { openPosition } from '../../utils/contractHelpers';
 import { DEFAULT_CB_PARAMS, DEFAULT_LIQUIDITY_POOL_PARAMS } from '../../utils/defaultParams';

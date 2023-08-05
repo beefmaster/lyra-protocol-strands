@@ -3,7 +3,7 @@
 // import { ethers } from 'hardhat';
 // import { deployGovernanceWrappers, GovernanceWrappersTypeGMX } from '../GovernanceWrapper/utils';
 // import { ListingManager } from '../../../typechain-types';
-// import { DAY_SEC } from '../../../scripts/util/web3utils';
+// import { DAY_SEC } from '@scripts/util/web3utils';
 // import { fastForward } from '../../utils/evm';
 // import { DEFAULT_GOV_GMX_FUTURES_HEDGER_BOUNDS } from '../../utils/defaultParams';
 // import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';

@@ -1,5 +1,5 @@
 import { BigNumber, BigNumberish } from 'ethers';
-import { MONTH_SEC, OptionType, toBN, ZERO_ADDRESS } from '../../../scripts/util/web3utils';
+import { MONTH_SEC, OptionType, toBN, ZERO_ADDRESS } from '@scripts/util/web3utils';
 import { assertCloseTo } from '../../utils/assert';
 import {
   createBoard,

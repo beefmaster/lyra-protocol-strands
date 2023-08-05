@@ -1,6 +1,6 @@
 import { BigNumber, BigNumberish } from '@ethersproject/bignumber';
 import { ContractTransaction } from '@ethersproject/contracts';
-import { getEventArgs, MONTH_SEC, OptionType, PositionState, toBN, UNIT } from '../../../scripts/util/web3utils';
+import { getEventArgs, MONTH_SEC, OptionType, PositionState, toBN, UNIT } from '@scripts/util/web3utils';
 import {
   ALL_TYPES,
   closePosition,

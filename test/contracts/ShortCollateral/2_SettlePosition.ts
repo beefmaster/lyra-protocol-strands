@@ -1,5 +1,5 @@
 import { BigNumberish } from 'ethers';
-import { HOUR_SEC, MONTH_SEC, OptionType, PositionState, toBN } from '../../../scripts/util/web3utils';
+import { HOUR_SEC, MONTH_SEC, OptionType, PositionState, toBN } from '@scripts/util/web3utils';
 import {
   fullyClosePosition,
   mockPrice,

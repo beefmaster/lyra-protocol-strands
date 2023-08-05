@@ -8,7 +8,7 @@ import {
   UNIT,
   WEEK_SEC,
   ZERO_ADDRESS,
-} from '../../../../scripts/util/web3utils';
+} from '@scripts/util/web3utils';
 import { assertCloseToPercentage } from '../../../utils/assert';
 import { DEFAULT_LIQUIDITY_POOL_PARAMS } from '../../../utils/defaultParams';
 import { fastForward } from '../../../utils/evm';

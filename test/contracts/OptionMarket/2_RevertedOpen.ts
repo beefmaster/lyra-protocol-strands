@@ -1,5 +1,5 @@
 import { BigNumber, BigNumberish } from '@ethersproject/bignumber';
-import { HOUR_SEC, MAX_UINT, MONTH_SEC, OptionType, toBN } from '../../../scripts/util/web3utils';
+import { HOUR_SEC, MAX_UINT, MONTH_SEC, OptionType, toBN } from '@scripts/util/web3utils';
 import {
   ALL_TYPES,
   closePositionWithOverrides,

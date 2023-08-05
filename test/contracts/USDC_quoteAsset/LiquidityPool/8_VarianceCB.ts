@@ -9,7 +9,7 @@ import {
   OptionType,
   toBN,
   WEEK_SEC,
-} from '../../../../scripts/util/web3utils';
+} from '@scripts/util/web3utils';
 import { assertCloseTo } from '../../../utils/assert';
 import { closePosition, openPosition } from '../../../utils/contractHelpers';
 import {

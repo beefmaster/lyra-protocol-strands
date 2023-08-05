@@ -1,13 +1,13 @@
-import { DeploymentParams } from '../../../scripts/util';
+import { DeploymentParams } from '@scripts/util';
 import { BigNumber } from 'ethers';
 import {
   callExternalFunction,
   deployMockExternalContract,
   executeExternalFunction,
   getExternalContract,
-} from '../../../scripts/util/transactions';
+} from '@scripts/util/transactions';
 import { send } from '../../utils/evm';
-import { MONTH_SEC } from '../../../scripts/util/web3utils';
+import { MONTH_SEC } from '@scripts/util/web3utils';
 import { MockPyth } from '../../../typechain-types';
 
 export async function setSUSDBalance(deploymentParams: DeploymentParams, recipient: string, amount: BigNumber) {

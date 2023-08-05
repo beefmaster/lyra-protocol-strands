@@ -1,4 +1,4 @@
-import { OptionType, PositionState, toBN } from '../../../../scripts/util/web3utils';
+import { OptionType, PositionState, toBN } from '@scripts/util/web3utils';
 import {
   checkContractFundsGMX,
   wrapperAddShort,

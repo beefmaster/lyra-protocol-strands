@@ -1,7 +1,7 @@
 import chai, { expect } from 'chai';
 import { solidity } from 'ethereum-waffle';
 import { BigNumber } from 'ethers';
-import { fromBN, toBN } from '../../scripts/util/web3utils';
+import { fromBN, toBN } from '@scripts/util/web3utils';
 chai.use(solidity);
 
 export function assertCloseTo(a: BigNumber, b: BigNumber, delta: BigNumber = toBN('0.5')) {

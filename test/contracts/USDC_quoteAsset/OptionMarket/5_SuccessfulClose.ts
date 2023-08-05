@@ -1,6 +1,6 @@
 import { BigNumber, BigNumberish } from '@ethersproject/bignumber';
 import { ContractTransaction } from '@ethersproject/contracts';
-import { CONVERTUSDC, OptionType, PositionState, toBN } from '../../../../scripts/util/web3utils';
+import { CONVERTUSDC, OptionType, PositionState, toBN } from '@scripts/util/web3utils';
 import { assertCloseToPercentage } from '../../../utils/assert';
 import {
   ALL_TYPES,

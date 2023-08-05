@@ -1,6 +1,6 @@
 import { BigNumber } from 'ethers';
 import { expect } from 'chai';
-import { toBN } from '../../../scripts/util/web3utils';
+import { toBN } from '@scripts/util/web3utils';
 import { DEFAULT_PRICING_PARAMS } from '../../utils/defaultParams';
 import { seedFixture } from '../../utils/fixture';
 import { hre } from '../../utils/testSetup';

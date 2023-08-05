@@ -10,7 +10,7 @@ import {
   toBytes32,
   TradeDirection,
   ZERO_ADDRESS,
-} from '../../scripts/util/web3utils';
+} from '@scripts/util/web3utils';
 import {
   ISwapRouter,
   IUniswapV3Pool,
@@ -33,7 +33,7 @@ import { hre } from './testSetup';
 import { DEFAULT_BASE_PRICE, DEFAULT_POOL_HEDGER_PARAMS, DEFAULT_SNX_FUTURES_HEDGER_PARAMS } from './defaultParams';
 import { deployGMXTestSystem, TestSystemContractsTypeGMX } from './deployTestSystemGMX';
 import { seedTestSystemGMX } from './seedTestSystemGMX';
-import { deployUniswap, deployUniswapPool } from '../../scripts/deploy/deployUniswap';
+import { deployUniswap, deployUniswapPool } from '@scripts/deploy/deployUniswap';
 
 export type Fixture = {
   c: TestSystemContractsType;

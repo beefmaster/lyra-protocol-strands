@@ -1,5 +1,5 @@
 import { DEFAULT_GOV_LIQUIDITY_POOL_BOUNDS, DEFAULT_GOV_OPTION_MARKET_PRICER_BOUNDS } from '../../utils/defaultParams';
-import { DAY_SEC, MAX_UINT, toBN } from '../../../scripts/util/web3utils';
+import { DAY_SEC, MAX_UINT, toBN } from '@scripts/util/web3utils';
 import { allCurrenciesFixtureGMX } from '../../utils/fixture';
 import { compareStruct, deployGovernanceWrappers, GovernanceWrappersTypeGMX } from './utils';
 import { expect, hre } from '../../utils/testSetup';

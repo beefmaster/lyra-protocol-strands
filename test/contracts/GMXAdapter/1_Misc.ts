@@ -1,5 +1,5 @@
 import { ethers } from 'hardhat';
-import { currentTime, DEFAULT_DECIMALS, MAX_UINT, toBN, UNIT, ZERO_ADDRESS } from '../../../scripts/util/web3utils';
+import { currentTime, DEFAULT_DECIMALS, MAX_UINT, toBN, UNIT, ZERO_ADDRESS } from '@scripts/util/web3utils';
 import { DEFAULT_BASE_PRICE, DEFAULT_GMX_ADAPTER_PARAMS, PricingType } from '../../utils/defaultParams';
 import { expect } from '../../utils/testSetup';
 import { setCLETHPrice } from '../../utils/seedTestSystemGMX';

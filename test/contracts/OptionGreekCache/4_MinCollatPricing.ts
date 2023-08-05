@@ -1,5 +1,5 @@
 import { BigNumber, BigNumberish } from 'ethers';
-import { currentTime, MAX_UINT, MONTH_SEC, OptionType, toBN, UNIT, YEAR_SEC } from '../../../scripts/util/web3utils';
+import { currentTime, MAX_UINT, MONTH_SEC, OptionType, toBN, UNIT, YEAR_SEC } from '@scripts/util/web3utils';
 import { TestBlackScholes } from '../../../typechain-types';
 import { assertCloseToPercentage } from '../../utils/assert';
 import { getSpotPrice, resetMinCollateralParameters } from '../../utils/contractHelpers';

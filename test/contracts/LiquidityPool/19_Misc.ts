@@ -4,7 +4,7 @@ import { BigNumber } from 'ethers';
 import { ethers } from 'hardhat';
 
 // import * as _ from 'lodash';
-import { currentTime, toBN, toBytes32, ZERO_ADDRESS } from '../../../scripts/util/web3utils';
+import { currentTime, toBN, toBytes32, ZERO_ADDRESS } from '@scripts/util/web3utils';
 import { LiquidityPool } from '../../../typechain-types';
 import { openDefaultLongPut } from '../../utils/contractHelpers';
 import {

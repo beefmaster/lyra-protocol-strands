@@ -1,6 +1,6 @@
 import { TransactionResponse } from '@ethersproject/abstract-provider';
 import { BigNumber } from 'ethers';
-import { getTxTimestamp, HOUR_SEC, MONTH_SEC, toBN, ZERO_ADDRESS } from '../../../scripts/util/web3utils';
+import { getTxTimestamp, HOUR_SEC, MONTH_SEC, toBN, ZERO_ADDRESS } from '@scripts/util/web3utils';
 import { assertCloseToPercentage } from '../../utils/assert';
 import { fastForward } from '../../utils/evm';
 import { seedFixture } from '../../utils/fixture';

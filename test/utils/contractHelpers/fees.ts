@@ -1,5 +1,5 @@
 import { BigNumber, BigNumberish, ContractTransaction } from 'ethers';
-import { CONVERTUSDC, getEventArgs, toBN, UNIT } from '../../../scripts/util/web3utils';
+import { CONVERTUSDC, getEventArgs, toBN, UNIT } from '@scripts/util/web3utils';
 import { TradeEvent } from '../../../typechain-types/OptionMarket';
 import { hre } from '../testSetup';
 

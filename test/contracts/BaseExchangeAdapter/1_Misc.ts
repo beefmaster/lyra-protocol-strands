@@ -1,4 +1,4 @@
-import { toBN, ZERO_ADDRESS } from '../../../scripts/util/web3utils';
+import { toBN, ZERO_ADDRESS } from '@scripts/util/web3utils';
 import { expect } from '../../utils/testSetup';
 import { ethers } from 'hardhat';
 import { TestBaseExchangeAdapter } from '../../../typechain-types';

@@ -4,7 +4,7 @@ import {
   DEFAULT_GREEK_CACHE_PARAMS,
   DEFAULT_MIN_COLLATERAL_PARAMS,
 } from '../../utils/defaultParams';
-import { MAX_UINT, ZERO_ADDRESS } from '../../../scripts/util/web3utils';
+import { MAX_UINT, ZERO_ADDRESS } from '@scripts/util/web3utils';
 import { allCurrenciesFixtureGMX } from '../../utils/fixture';
 import { compareStruct, deployGovernanceWrappers, GovernanceWrappersTypeGMX } from './utils';
 import { expect, hre } from '../../utils/testSetup';

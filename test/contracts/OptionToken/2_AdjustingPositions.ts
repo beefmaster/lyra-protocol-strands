@@ -1,5 +1,5 @@
 // integration tests
-import { OptionType, PositionState, toBN, ZERO_ADDRESS } from '../../../scripts/util/web3utils';
+import { OptionType, PositionState, toBN, ZERO_ADDRESS } from '@scripts/util/web3utils';
 import { PositionWithOwnerStruct } from '../../../typechain-types/OptionToken';
 import { ALL_TYPES, closePosition, CLOSE_FUNCTIONS, DEFAULT_OPTIONS, openPosition } from '../../utils/contractHelpers';
 import { allTradesFixture } from '../../utils/fixture';

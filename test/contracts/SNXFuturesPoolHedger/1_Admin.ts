@@ -1,5 +1,5 @@
 import { beforeEach } from 'mocha';
-import { HOUR_SEC, toBN, toBytes32, ZERO_ADDRESS } from '../../../scripts/util/web3utils';
+import { HOUR_SEC, toBN, toBytes32, ZERO_ADDRESS } from '@scripts/util/web3utils';
 import { DEFAULT_POOL_HEDGER_PARAMS } from '../../utils/defaultParams';
 import { deployFixturePerpsAdapter } from '../../utils/fixture';
 import { expect, hre } from '../../utils/testSetup';

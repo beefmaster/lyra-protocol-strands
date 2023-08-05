@@ -1,6 +1,6 @@
 // integration tests
 import { BigNumberish } from '@ethersproject/bignumber';
-import { MAX_UINT, MONTH_SEC, OptionType, toBN } from '../../../scripts/util/web3utils';
+import { MAX_UINT, MONTH_SEC, OptionType, toBN } from '@scripts/util/web3utils';
 import { closePositionWithOverrides, openPositionWithOverrides } from '../../utils/contractHelpers';
 import { DEFAULT_TRADE_LIMIT_PARAMS } from '../../utils/defaultParams';
 import { fastForward } from '../../utils/evm';

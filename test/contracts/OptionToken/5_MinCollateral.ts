@@ -9,7 +9,7 @@ import {
   toBN,
   TradeDirection,
   UNIT,
-} from '../../../scripts/util/web3utils';
+} from '@scripts/util/web3utils';
 import { assertCloseToPercentage } from '../../utils/assert';
 import {
   Balances,

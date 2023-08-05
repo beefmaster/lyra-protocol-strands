@@ -7,7 +7,6 @@
   "license": "ISC",
   "main": "dist/test/utils/package/index.js",
   "types": "dist/test/utils/package/index.d.ts",
-  "baseUrl": ".",
   "preserveSymlinks" : true,
   "repository": {
     "type": "git",
@@ -18,9 +17,8 @@
     "dist/artifacts/contracts/**/**/*.json",
     "dist/test/utils",
     "dist/deployments",
-    "dist/scripts/util/web3utils*",
-    "dist/scripts/util/parseFiles*",
-    "dist/scripts/util/wrapperPacking*",
+    "dist/scripts/*/**.ts",
+    "dist/scripts/*.ts",
     "dist/typechain-types",
     "contracts"
   ],
@@ -28,10 +26,9 @@
     "src": "test/**/*.ts scripts/**/*.ts contracts/**/*.sol contracts/*.sol hardhat.config.ts"
   },
   "scripts": {
-    "install:submodule" : "git init && git submodule update --init --recursive",
     "clean": "hardhat clean && rimraf ./cache && rimraf ./artifacts && rimraf ./cache-ovm && rimraf ./artifacts-ovm",
     "compile": "hardhat compile",
-    "build": "yarn clean && yarn install:submodule && yarn compile",
+    "build": "yarn clean && yarn compile",
     "test": "hardhat test ./test/contracts/**/*.ts ./test/contracts/periphery/**/*.ts ./test/contracts/USDC_quoteAsset/**/*.ts",
     "test:heavy": "hardhat test:heavy ./test/contracts/**/*.ts",
     "coverage": "NODE_OPTIONS=\"--max-old-space-size=4096\" hardhat coverage --temp artifacts --network hardhat  --testfiles \"./test/contracts/**/*.ts\"",

@@ -1,5 +1,5 @@
 import { BigNumber } from 'ethers';
-import { toBN, UNIT } from '../../../scripts/util/web3utils';
+import { toBN, UNIT } from '@scripts/util/web3utils';
 import { TradeParametersStruct, TradePricingStruct } from '../../../typechain-types/OptionGreekCache';
 import { VarianceFeeComponentsStruct, VarianceFeeParametersStruct } from '../../../typechain-types/OptionMarketPricer';
 import { DEFAULT_VARIANCE_FEE_PARAMS } from '../../utils/defaultParams';

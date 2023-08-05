@@ -1,6 +1,6 @@
 import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';
 import { BigNumber } from 'ethers';
-import { getAllMatchingEvents, OptionType, PositionState, toBN } from '../../../scripts/util/web3utils';
+import { getAllMatchingEvents, OptionType, PositionState, toBN } from '@scripts/util/web3utils';
 import {
   closeShortCallBase,
   DEFAULT_LONG_CALL,

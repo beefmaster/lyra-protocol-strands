@@ -1,5 +1,5 @@
 import { BigNumberish } from 'ethers';
-import { HOUR_SEC, MONTH_SEC, OptionType, toBN } from '../../../scripts/util/web3utils';
+import { HOUR_SEC, MONTH_SEC, OptionType, toBN } from '@scripts/util/web3utils';
 import { forceClosePositionWithOverrides, openPositionWithOverrides } from '../../utils/contractHelpers';
 import { fastForward } from '../../utils/evm';
 import { seedFixture } from '../../utils/fixture';

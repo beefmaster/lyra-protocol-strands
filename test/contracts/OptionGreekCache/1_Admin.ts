@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import { ethers } from 'hardhat';
-import { DAY_SEC, HOUR_SEC, MAX_UINT, toBN } from '../../../scripts/util/web3utils';
+import { DAY_SEC, HOUR_SEC, MAX_UINT, toBN } from '@scripts/util/web3utils';
 import {
   ForceCloseParametersStruct,
   GreekCacheParametersStruct,

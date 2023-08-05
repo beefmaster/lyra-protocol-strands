@@ -3,7 +3,7 @@ import { DEFAULT_GOV_SNX_ADAPTER_BOUNDS, DEFAULT_GOV_SNX_FUTURES_HEDGER_PARAMS }
 import { deployFixturePerpsAdapter } from '../../utils/fixture';
 import { expect, hre } from '../../utils/testSetup';
 import { GovernanceWrappersTypeSNXPerps, deploySNXGovernanceWrapper } from '../GovernanceWrapper/utils';
-import { toBN } from '../../../scripts/util/web3utils';
+import { toBN } from '@scripts/util/web3utils';
 
 describe('SNXAdapter - Governance Wrapper', () => {
   let govWrappers: GovernanceWrappersTypeSNXPerps;

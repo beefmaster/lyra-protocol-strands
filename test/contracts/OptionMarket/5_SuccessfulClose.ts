@@ -1,6 +1,6 @@
 import { BigNumber, BigNumberish } from '@ethersproject/bignumber';
 import { ContractTransaction } from '@ethersproject/contracts';
-import { OptionType, PositionState, toBN } from '../../../scripts/util/web3utils';
+import { OptionType, PositionState, toBN } from '@scripts/util/web3utils';
 import {
   ALL_TYPES,
   closePositionWithOverrides,

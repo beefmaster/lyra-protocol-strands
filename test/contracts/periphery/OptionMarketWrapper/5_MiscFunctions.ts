@@ -1,4 +1,4 @@
-import { getEventArgs, toBN, ZERO_ADDRESS } from '../../../../scripts/util/web3utils';
+import { getEventArgs, toBN, ZERO_ADDRESS } from '@scripts/util/web3utils';
 import { OptionMarketContractsStruct } from '../../../../typechain-types/OptionMarketWrapper';
 import { assertCloseToPercentage } from '../../../utils/assert';
 import { STABLE_IDS, wrapperOpenLong } from '../../../utils/contractHelpers/wrapper';

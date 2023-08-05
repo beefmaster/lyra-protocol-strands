@@ -1,5 +1,5 @@
 import { BigNumber, BigNumberish } from 'ethers';
-import { CONVERTUSDC, CONVERTWBTC, MONTH_SEC, OptionType, toBN } from '../../../../scripts/util/web3utils';
+import { CONVERTUSDC, CONVERTWBTC, MONTH_SEC, OptionType, toBN } from '@scripts/util/web3utils';
 import { assertCloseTo, assertCloseToPercentage } from '../../../utils/assert';
 import {
   createBoard,

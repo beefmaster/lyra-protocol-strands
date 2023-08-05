@@ -3,7 +3,7 @@ import {
   DEFAULT_GOV_GMX_FUTURES_HEDGER_BOUNDS,
   DEFAULT_POOL_HEDGER_PARAMS,
 } from '../../utils/defaultParams';
-import { MAX_UINT, toBN, toBytes32, ZERO_ADDRESS } from '../../../scripts/util/web3utils';
+import { MAX_UINT, toBN, toBytes32, ZERO_ADDRESS } from '@scripts/util/web3utils';
 
 import { allCurrenciesFixtureGMX } from '../../utils/fixture';
 import { compareStruct, deployGovernanceWrappers, GovernanceWrappersTypeGMX } from './utils';

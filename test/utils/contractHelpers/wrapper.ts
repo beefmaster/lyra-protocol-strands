@@ -1,5 +1,5 @@
 import { BigNumber, BigNumberish, ContractTransaction } from 'ethers';
-import { fromBN, getEventArgs, OptionType, toBN, UNIT } from '../../../scripts/util/web3utils';
+import { fromBN, getEventArgs, OptionType, toBN, UNIT } from '@scripts/util/web3utils';
 import {
   packAddLongParams,
   packAddShortParams,
@@ -9,7 +9,7 @@ import {
   packOpenShortParams,
   packReduceLongParams,
   packReduceShortParams,
-} from '../../../scripts/util/wrapperPacking';
+} from '@scripts/util/wrapperPacking';
 import { DEFAULT_MARKET_ID } from '../defaultParams';
 import { expect, hre } from '../testSetup';
 

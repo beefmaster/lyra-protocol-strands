@@ -3,13 +3,13 @@ import chalk from 'chalk';
 import { Contract, Signer, Wallet } from 'ethers';
 import fs from 'fs';
 import path, { resolve } from 'path';
-import { AllowedNetworks, DeploymentParams, DeploymentType, isMockGmx, isMockSnx } from '../../../scripts/util';
+import { AllowedNetworks, DeploymentParams, DeploymentType, isMockGmx, isMockSnx } from '@scripts/util';
 import {
   addLyraContract,
   addMockedExternalContract,
   loadExternalContractData,
   loadLyraContractData,
-} from '../../../scripts/util/parseFiles';
+} from '@scripts/util/parseFiles';
 import { GlobalTestSystemContracts, MarketTestSystemContracts } from '../deployTestSystem';
 import { artifacts } from './index-artifacts';
 

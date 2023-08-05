@@ -2,7 +2,7 @@ import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';
 import { expect } from 'chai';
 import { BigNumberish } from 'ethers';
 import { ethers } from 'hardhat';
-import { MONTH_SEC, OptionType, PositionState, toBN, ZERO_ADDRESS } from '../../../../scripts/util/web3utils';
+import { MONTH_SEC, OptionType, PositionState, toBN, ZERO_ADDRESS } from '@scripts/util/web3utils';
 import { openPositionWithOverrides, setETHPrice } from '../../../utils/contractHelpers';
 import { getBatches } from '../../../utils/contractHelpers/keeperHelperPacking';
 import { fastForward } from '../../../utils/evm';

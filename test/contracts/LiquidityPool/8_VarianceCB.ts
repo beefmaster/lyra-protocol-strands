@@ -1,7 +1,7 @@
 import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';
 import { expect } from 'chai';
 import { BigNumber } from 'ethers';
-import { currentTime, DAY_SEC, HOUR_SEC, MONTH_SEC, OptionType, toBN, WEEK_SEC } from '../../../scripts/util/web3utils';
+import { currentTime, DAY_SEC, HOUR_SEC, MONTH_SEC, OptionType, toBN, WEEK_SEC } from '@scripts/util/web3utils';
 import { assertCloseTo } from '../../utils/assert';
 import { closePosition, openPosition } from '../../utils/contractHelpers';
 import {

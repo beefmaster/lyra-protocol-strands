@@ -1,5 +1,5 @@
 import { DEFAULT_GOV_OPTION_MARKET_BOUNDS } from '../../utils/defaultParams';
-import { currentTime, MAX_UINT, MONTH_SEC, toBN, toBN18 } from '../../../scripts/util/web3utils';
+import { currentTime, MAX_UINT, MONTH_SEC, toBN, toBN18 } from '@scripts/util/web3utils';
 import { allCurrenciesFixtureGMX } from '../../utils/fixture';
 import { compareStruct, deployGovernanceWrappers, GovernanceWrappersTypeGMX } from './utils';
 import { expect, hre } from '../../utils/testSetup';

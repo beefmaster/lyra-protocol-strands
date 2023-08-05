@@ -1,6 +1,6 @@
-import { fromBN, MAX_UINT, OptionType, toBN, toBytes32, WEEK_SEC } from '../../scripts/util/web3utils';
+import { fromBN, MAX_UINT, OptionType, toBN, toBytes32, WEEK_SEC } from '@scripts/util/web3utils';
 import { restoreSnapshot, send, takeSnapshot } from '../utils/evm';
-import { DeploymentParams, DeploymentType } from '../../scripts/util';
+import { DeploymentParams, DeploymentType } from '@scripts/util';
 import {
   callExternalFunction,
   callLyraFunction,
@@ -9,12 +9,12 @@ import {
   getExternalContract,
   getLyraContract,
   openPosition,
-} from '../../scripts/util/transactions';
+} from '@scripts/util/transactions';
 import { ethers } from 'hardhat';
-import { loadParams } from '../../scripts/util/parseFiles';
+import { loadParams } from '@scripts/util/parseFiles';
 import { BigNumber } from 'ethers';
-import { deploySNXContracts } from '../../scripts/deploy/deploySNXContracts';
-import { createBoards, generateBoardParamsFor } from '../../scripts/seed/createBoards';
+import { deploySNXContracts } from '@scripts/deploy/deploySNXContracts';
+import { createBoards, generateBoardParamsFor } from '@scripts/seed/createBoards';
 import { getCurrentTimestamp } from 'hardhat/internal/hardhat-network/provider/utils/getCurrentTimestamp';
 import { PricingType } from '../utils/defaultParams';
 import { writeExternalsSync } from './util/writeExternals';

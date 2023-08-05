@@ -1,4 +1,4 @@
-import { MONTH_SEC, PositionState, toBN } from '../../../scripts/util/web3utils';
+import { MONTH_SEC, PositionState, toBN } from '@scripts/util/web3utils';
 import { assertCloseToPercentage } from '../../utils/assert';
 import { PricingType } from '../../utils/defaultParams';
 import { fastForward } from '../../utils/evm';

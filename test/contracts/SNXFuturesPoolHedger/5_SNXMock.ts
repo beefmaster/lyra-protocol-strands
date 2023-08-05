@@ -1,7 +1,7 @@
 // testing for cases where the changes in snx system should stop opening of new positions
 
 import { BigNumber, BigNumberish } from "ethers";
-import { OptionType, toBN, toBytes32 } from "../../../scripts/util/web3utils";
+import { OptionType, toBN, toBytes32 } from "@scripts/util/web3utils";
 import { MarketViewStruct } from "../../../typechain-types/OptionMarketViewer";
 import { openPosition } from "../../utils/contractHelpers";
 import { deployFixturePerpsAdapter } from "../../utils/fixture";

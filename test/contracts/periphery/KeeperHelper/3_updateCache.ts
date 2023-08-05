@@ -1,4 +1,4 @@
-import { toBN } from '../../../../scripts/util/web3utils';
+import { toBN } from '@scripts/util/web3utils';
 import { setETHPrice } from '../../../utils/contractHelpers';
 import { DEFAULT_BASE_PRICE } from '../../../utils/defaultParams';
 import { seedFixture } from '../../../utils/fixture';

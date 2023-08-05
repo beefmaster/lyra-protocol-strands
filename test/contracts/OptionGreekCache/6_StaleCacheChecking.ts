@@ -1,6 +1,6 @@
 import { BigNumberish } from '@ethersproject/bignumber';
 import { BigNumber } from 'ethers';
-import { DAY_SEC, OptionType, toBN, toBytes32, UNIT, WEEK_SEC } from '../../../scripts/util/web3utils';
+import { DAY_SEC, OptionType, toBN, toBytes32, UNIT, WEEK_SEC } from '@scripts/util/web3utils';
 import { assertCloseToPercentage } from '../../utils/assert';
 import {
   getSpotPrice,

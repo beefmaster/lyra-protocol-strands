@@ -1,6 +1,6 @@
 import { BigNumber } from 'ethers';
 // import * as _ from 'lodash';
-import { currentTime, MONTH_SEC, OptionType, toBN, TradeDirection } from '../../../scripts/util/web3utils';
+import { currentTime, MONTH_SEC, OptionType, toBN, TradeDirection } from '@scripts/util/web3utils';
 import { StrikeStruct } from '../../../typechain-types/OptionMarket';
 import { TradeParametersStruct } from '../../../typechain-types/OptionToken';
 import { DEFAULT_BASE_PRICE } from '../../utils/defaultParams';

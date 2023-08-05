@@ -9,7 +9,7 @@ import {
   toBN,
   UNIT,
   WEEK_SEC,
-} from '../../../scripts/util/web3utils';
+} from '@scripts/util/web3utils';
 import { TestBlackScholes } from '../../../typechain-types';
 import { BlackScholesInputsStruct } from '../../../typechain-types/BlackScholes';
 import { assertCloseToPercentage } from '../../utils/assert';

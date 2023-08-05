@@ -1,5 +1,5 @@
 import { BigNumberish } from "ethers";
-import { OptionType, toBN } from "../../../scripts/util/web3utils";
+import { OptionType, toBN } from "@scripts/util/web3utils";
 import { OptionMarketParametersStruct } from "../../../typechain-types/OptionMarketGovernanceWrapper";
 import { MarketViewStruct } from "../../../typechain-types/OptionMarketViewer";
 import { closePositionWithOverrides, openPositionWithOverrides } from "../../utils/contractHelpers";

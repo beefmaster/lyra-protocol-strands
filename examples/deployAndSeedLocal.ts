@@ -1,5 +1,5 @@
 import { ethers } from 'ethers';
-import { toBN } from '../scripts/util/web3utils';
+import { toBN } from '@scripts/util/web3utils';
 import { DEFAULT_OPTION_MARKET_PARAMS } from '../test/utils/defaultParams';
 import { deployTestSystem } from '../test/utils/deployTestSystem';
 import { getGlobalDeploys, getMarketDeploys, LyraGlobal, LyraMarket } from '../test/utils/package/parseFiles';

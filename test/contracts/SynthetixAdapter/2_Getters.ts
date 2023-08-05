@@ -1,5 +1,5 @@
 import { BigNumber } from 'ethers';
-import { toBN, toBytes32, ZERO_ADDRESS } from '../../../scripts/util/web3utils';
+import { toBN, toBytes32, ZERO_ADDRESS } from '@scripts/util/web3utils';
 import { ExchangeParamsStructOutput } from '../../../typechain-types/SynthetixAdapter';
 import { defaultBTCExchange, setETHExchangerInvalid, setETHFeeRate, setETHPrice } from '../../utils/contractHelpers';
 import { seedFixture } from '../../utils/fixture';

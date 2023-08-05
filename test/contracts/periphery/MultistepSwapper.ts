@@ -1,6 +1,6 @@
 // import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';
 // import { ethers } from 'hardhat';
-// import { MAX_UINT, toBN, toBytes32, UNIT, ZERO_ADDRESS } from '../../../scripts/util/web3utils';
+// import { MAX_UINT, toBN, toBytes32, UNIT, ZERO_ADDRESS } from '@scripts/util/web3utils';
 // import { MultistepSwapper, TestERC20, TestSwapRouter } from '../../../typechain-types';
 // import { TestSystemContractsType } from '../../utils/deployTestSystem';
 // import { restoreSnapshot, takeSnapshot } from '../../utils/evm';

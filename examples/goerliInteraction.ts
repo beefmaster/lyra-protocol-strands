@@ -1,7 +1,7 @@
 import { JsonRpcProvider } from '@ethersproject/providers';
 import chalk from 'chalk';
 import { Contract, ethers } from 'ethers';
-import { MAX_UINT, OptionType, toBN } from '../scripts/util/web3utils';
+import { MAX_UINT, OptionType, toBN } from '@scripts/util/web3utils';
 import { getGlobalDeploys, getMarketDeploys } from '../test/utils/package/parseFiles';
 
 async function main() {

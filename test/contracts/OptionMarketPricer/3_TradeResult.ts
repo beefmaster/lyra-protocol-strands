@@ -1,6 +1,6 @@
 import { BigNumber } from 'ethers';
 import { expect } from 'chai';
-import { DAY_SEC, getEventArgs, OptionType, toBN, UNIT } from '../../../scripts/util/web3utils';
+import { DAY_SEC, getEventArgs, OptionType, toBN, UNIT } from '@scripts/util/web3utils';
 import { TradePricingStruct } from '../../../typechain-types/OptionGreekCache';
 import { TradeResultStructOutput } from '../../../typechain-types/OptionMarket';
 import { TradeParametersStruct, TradeResultStruct } from '../../../typechain-types/OptionMarketPricer';

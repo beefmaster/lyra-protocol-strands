@@ -7,7 +7,13 @@
     "esModuleInterop": true,
     "outDir": "dist",
     "resolveJsonModule": true,
-    "declaration": true
+    "declaration": true,
+    "baseUrl": ".",
+    "paths" : {
+      "@scripts/*": ["./scripts/*"],
+      "@scripts" : ["./scripts"],
+      "@test/*": ["./test/*"]
+    },
   },
   "include": [
     "./scripts", 

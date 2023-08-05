@@ -1,5 +1,5 @@
 import { beforeEach } from 'mocha';
-import { ZERO_ADDRESS } from '../../../scripts/util/web3utils';
+import { ZERO_ADDRESS } from '@scripts/util/web3utils';
 import { seedFixture } from '../../utils/fixture';
 import { expect, hre } from '../../utils/testSetup';
 

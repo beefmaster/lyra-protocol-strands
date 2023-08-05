@@ -1,4 +1,4 @@
-import { MONTH_SEC, OptionType, toBN, UNIT } from '../../../scripts/util/web3utils';
+import { MONTH_SEC, OptionType, toBN, UNIT } from '@scripts/util/web3utils';
 import { assertCloseToPercentage } from '../../utils/assert';
 import {
   estimateCallPayout,

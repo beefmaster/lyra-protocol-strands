@@ -1,4 +1,4 @@
-import { currentTime, DAY_SEC, MONTH_SEC, OptionType, toBN, WEEK_SEC } from '../../../scripts/util/web3utils';
+import { currentTime, DAY_SEC, MONTH_SEC, OptionType, toBN, WEEK_SEC } from '@scripts/util/web3utils';
 import { assertCloseToPercentage } from '../../utils/assert';
 import { createBoard, openDefaultLongCall, openPositionWithOverrides, setETHPrice } from '../../utils/contractHelpers';
 import { DEFAULT_BASE_PRICE } from '../../utils/defaultParams';

@@ -1,5 +1,5 @@
 import { BigNumber } from 'ethers';
-import { MONTH_SEC } from '../../../scripts/util/web3utils';
+import { MONTH_SEC } from '@scripts/util/web3utils';
 import { StrikeStruct } from '../../../typechain-types/OptionMarket';
 import { fastForward } from '../evm';
 import { createDefaultBoardWithOverrides } from '../seedTestSystem';

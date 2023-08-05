@@ -8,7 +8,7 @@ import {
   OptionType,
   PositionState,
   toBN,
-} from '../../../../scripts/util/web3utils';
+} from '@scripts/util/web3utils';
 import { assertCloseToPercentage } from '../../../utils/assert';
 import {
   ALL_TYPES,

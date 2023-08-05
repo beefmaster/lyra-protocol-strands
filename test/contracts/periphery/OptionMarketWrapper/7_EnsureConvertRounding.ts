@@ -1,4 +1,4 @@
-import { fromBN, OptionType, toBN } from '../../../../scripts/util/web3utils';
+import { fromBN, OptionType, toBN } from '@scripts/util/web3utils';
 import {
   DEFAULT_SHORT_CALL_BASE,
   DEFAULT_SHORT_PUT_QUOTE,

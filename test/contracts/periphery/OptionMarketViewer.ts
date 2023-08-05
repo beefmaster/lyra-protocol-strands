@@ -1,7 +1,7 @@
 import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';
 import { BigNumberish } from 'ethers';
 import { ethers } from 'hardhat';
-import { currentTime, MONTH_SEC, OptionType, toBN, toBytes32, ZERO_ADDRESS } from '../../../scripts/util/web3utils';
+import { currentTime, MONTH_SEC, OptionType, toBN, toBytes32, ZERO_ADDRESS } from '@scripts/util/web3utils';
 import { assertCloseTo } from '../../utils/assert';
 import { openPositionWithOverrides } from '../../utils/contractHelpers';
 import { DEFAULT_BASE_PRICE } from '../../utils/defaultParams';

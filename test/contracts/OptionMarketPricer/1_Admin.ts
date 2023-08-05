@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { DAY_SEC, toBN, WEEK_SEC } from '../../../scripts/util/web3utils';
+import { DAY_SEC, toBN, WEEK_SEC } from '@scripts/util/web3utils';
 import { PricingParametersStruct, TradeLimitParametersStruct } from '../../../typechain-types/OptionMarketPricer';
 import { DEFAULT_PRICING_PARAMS, DEFAULT_TRADE_LIMIT_PARAMS } from '../../utils/defaultParams';
 import { seedFixture } from '../../utils/fixture';

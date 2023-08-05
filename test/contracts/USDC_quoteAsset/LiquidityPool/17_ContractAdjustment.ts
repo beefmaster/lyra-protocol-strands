@@ -1,6 +1,6 @@
 import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';
 import { BigNumber } from 'ethers';
-import { CONVERTUSDC, MONTH_SEC, toBN, UNIT, WEEK_SEC } from '../../../../scripts/util/web3utils';
+import { CONVERTUSDC, MONTH_SEC, toBN, UNIT, WEEK_SEC } from '@scripts/util/web3utils';
 import { assertCloseToPercentage } from '../../../utils/assert';
 import { mockPrice, openLongCallAndGetLiquidity, openLongPutAndGetLiquidity } from '../../../utils/contractHelpers';
 import { fastForward } from '../../../utils/evm';

@@ -1,4 +1,4 @@
-import { getContractArtifact } from '../../../scripts/util/parseFiles';
+import { getContractArtifact } from '@scripts/util/parseFiles';
 
 export const artifacts = {
   BasicLiquidityCounter: getContractArtifact('local', 'BasicLiquidityCounter', '../../artifacts/contracts/'),

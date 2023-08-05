@@ -1,5 +1,5 @@
 import { BigNumber, BigNumberish, Contract, Signer } from 'ethers';
-import { currentTime, getEventArgs, toBN, toBN18, toBytes32 } from '../../scripts/util/web3utils';
+import { currentTime, getEventArgs, toBN, toBN18, toBytes32 } from '@scripts/util/web3utils';
 import * as defaultParams from './defaultParams';
 import { MarketTestSystemContracts, TestSystemContractsType } from './deployTestSystem';
 import { getLocalRealSynthetixContract } from './package/parseFiles';

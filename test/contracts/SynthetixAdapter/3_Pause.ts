@@ -1,7 +1,7 @@
 import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';
 import { BigNumber } from 'ethers';
 import { beforeEach } from 'mocha';
-import { MONTH_SEC, OptionType, toBN, WEEK_SEC, ZERO_ADDRESS } from '../../../scripts/util/web3utils';
+import { MONTH_SEC, OptionType, toBN, WEEK_SEC, ZERO_ADDRESS } from '@scripts/util/web3utils';
 import {
   closePositionWithOverrides,
   defaultBTCExchange,

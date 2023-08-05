@@ -1,6 +1,6 @@
 import { Signer } from 'ethers';
 import { ethers } from 'hardhat';
-import { fromBN, toBN } from '../../../scripts/util/web3utils';
+import { fromBN, toBN } from '@scripts/util/web3utils';
 import { MathTest } from '../../../typechain-types';
 describe('Oracle - unit test', async () => {
   let deployer: Signer;
