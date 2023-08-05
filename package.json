@@ -7,6 +7,7 @@
   "license": "ISC",
   "main": "dist/test/utils/package/index.js",
   "types": "dist/test/utils/package/index.d.ts",
+  "preserveSymlinks" : true,
   "repository": {
     "type": "git",
     "url": "https://github.com/lyra-finance/lyra-protocol/tree/avalon"
