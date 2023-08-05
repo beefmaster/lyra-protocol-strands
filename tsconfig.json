@@ -20,7 +20,8 @@
     "./deployments/kovan-ovm/synthetix.mocked.json",
     "./deployments/mainnet-ovm/lyra.json",
     "./deployments/mainnet-ovm/synthetix.json",
-    "./examples"
+    "./examples",
+    "./lib"
   ],
   "exclude": [
     "node_modules",
