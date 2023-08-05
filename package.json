@@ -26,9 +26,10 @@
     "src": "test/**/*.ts scripts/**/*.ts contracts/**/*.sol contracts/*.sol hardhat.config.ts"
   },
   "scripts": {
+    "install:submodule" : "git submodule update --init --recursive",
     "clean": "hardhat clean && rimraf ./cache && rimraf ./artifacts && rimraf ./cache-ovm && rimraf ./artifacts-ovm",
     "compile": "hardhat compile",
-    "build": "yarn clean && yarn compile",
+    "build": "yarn clean && yarn install:submodule && yarn compile",
     "test": "hardhat test ./test/contracts/**/*.ts ./test/contracts/periphery/**/*.ts ./test/contracts/USDC_quoteAsset/**/*.ts",
     "test:heavy": "hardhat test:heavy ./test/contracts/**/*.ts",
     "coverage": "NODE_OPTIONS=\"--max-old-space-size=4096\" hardhat coverage --temp artifacts --network hardhat  --testfiles \"./test/contracts/**/*.ts\"",
@@ -138,7 +139,8 @@
     "openzeppelin-contracts-upgradeable-4.5.1": "npm:@openzeppelin/contracts-upgradeable@4.5.1",
     "openzeppelin-solidity-2.3.0": "npm:openzeppelin-solidity@2.3.0",
     "solidifier": "^2.2.3",
-    "stochastic": "^0.0.14"
+    "stochastic": "^0.0.14",
+    "listing-manager": "https://github.com/lyra-finance/listing-manager.git"
   },
   "peerDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
