@@ -26,7 +26,7 @@
     "src": "test/**/*.ts scripts/**/*.ts contracts/**/*.sol contracts/*.sol hardhat.config.ts"
   },
   "scripts": {
-    "install:submodule" : "git submodule update --init --recursive",
+    "install:submodule" : "git init && git submodule update --init --recursive",
     "clean": "hardhat clean && rimraf ./cache && rimraf ./artifacts && rimraf ./cache-ovm && rimraf ./artifacts-ovm",
     "compile": "hardhat compile",
     "build": "yarn clean && yarn install:submodule && yarn compile",
