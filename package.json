@@ -20,8 +20,7 @@
     "dist/scripts/util/parseFiles*",
     "dist/scripts/util/wrapperPacking*",
     "dist/typechain-types",
-    "contracts",
-    "lib"
+    "contracts"
   ],
   "config": {
     "src": "test/**/*.ts scripts/**/*.ts contracts/**/*.sol contracts/*.sol hardhat.config.ts"
