@@ -12,7 +12,7 @@
     "paths" : {
       "@scripts/*": ["./scripts/*"],
       "@scripts" : ["./scripts"],
-      "@scripts/*/*" : ["./scripts/*/*"],
+      "@scripts/util/*" : ["./scripts/util/*"],
       "@test/*": ["./test/*"]
     },
   },
